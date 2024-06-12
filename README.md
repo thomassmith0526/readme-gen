@@ -1,23 +1,23 @@
-# test2
+# Texas
   ## GitHub repo
-  timtom00
+  thomassmith0526
   ### Email
-  timtom000@yahoo.com
+  thomassmith0526@gamil.com
   ## Description
-  testing to see if this works
+  showing everyone why Texas is the best football program 
   ## Table of Contents
   * [Lincese](#Lincese)
   *[Test](#Test)
   *[Contributing](#Contributing)
   ## Lincese
-  Apache license 2.0
+  MIT
   ## Test
-  fight
+  Fight 
   ## Contributing
   everything
   #Screen Shots
   #Question
-  If you have any questions please timtom000@yahoo.com>. You can find more of tim at timtom00
+  If you have any questions please thomassmith0526@gamil.com>. You can find more of thomas at thomassmith0526
 
 
 
