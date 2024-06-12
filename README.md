@@ -1,23 +1,26 @@
-# Texas
-  ## GitHub repo
-  thomassmith0526
+# time
+  ## GitHub repo User Name
+  thomas222
   ### Email
-  thomassmith0526@gamil.com
-  ## Description
-  showing everyone why Texas is the best football program 
-  ## Table of Contents
+  thomas222@yahoo.com
+   ## Table of Contents
+  * [Description](#Description)
   * [Lincese](#Lincese)
-  *[Test](#Test)
-  *[Contributing](#Contributing)
+  * [Test](#Test)
+  * [Contributing](#Contributing)
+ ## Description
+  help
   ## Lincese
-  MIT
+  undefined
+  function link() { [native code] }
+  Apache license 2.0
   ## Test
-  Fight 
+  fight
   ## Contributing
   everything
   #Screen Shots
   #Question
-  If you have any questions please thomassmith0526@gamil.com>. You can find more of thomas at thomassmith0526
+  If you have any questions please thomas222@yahoo.com>. You can find more of thomas at thomas222
 
 
 

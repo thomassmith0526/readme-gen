@@ -44,7 +44,7 @@ return inquirer
         "Apache license 2.0",
         "Eclipse Public License 2.0",
         "MIT",
-        "Microsoft Public License",
+        "WTFPL",
         "zLib License",
         "none",
       ],
