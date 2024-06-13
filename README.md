@@ -1,27 +1,27 @@
-# f
+# GOAT
   ## GitHub repo User Name
-  f
+  thomasss2222
   ### Email
-  f
+  thomasss222@yahoo.com
    ## Table of Contents
-  * Installation](#Installation)
+  * [Installation](#Installation)
   * [Description](#Description)
   * [Lincese](#Lincese)
   * [Test](#Test)
   * [Contributing](#Contributing)
  ## Installation
  To install the corrcet dependencies, run the following command<br>
- ```f```
+ ```npm i ```
  ## Description
-  f
+  projecting the next GOATs in sports 
 ## Lincese
-  [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+  [![License](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/)
   
-  BSD 3-Clause License
+  WTFPL
 ## Test
-  f
+  baaa
 ## Contributing
-  f
+  college sports api 
 ## Screen Shots
 ## Question
-  If you have any questions please f>. You can find more of f at f
+  If you have any questions please thomasss222@yahoo.com>. You can find more of thomas at thomasss2222

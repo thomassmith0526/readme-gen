@@ -54,7 +54,7 @@ function generateMarkdown(data) {
   ### Email
   ${data.userEmail}
    ## Table of Contents
-  * Installation](#Installation)
+  * [Installation](#Installation)
   * [Description](#Description)
   * [Lincese](#Lincese)
   * [Test](#Test)
