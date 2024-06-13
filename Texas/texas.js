@@ -1,11 +1,5 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-// const apacheLicense = 'Apache license 2.0'
-// const eclipseLicense = 'Eclipse Public License 2.0'
-// const mit = 'MIT'
-// const wtfpl = 'WTFPL'
-// const zLibLicense = 'zLib License'
-// const noLicenses = 'none'
+
 function renderLicenseBadge(license) {
   switch (license) {
     case "BSD 3-Clause License":
@@ -74,9 +68,9 @@ function generateMarkdown(data) {
   ${data.contributing}
 ## Screen Shots
 ## Question
-  If you have any questions please ${data.userEmail}>. You can find more of ${
+  If you have any questions please ${data.userEmail}. You can find more of ${
     data.userName
-  } at ${data.userGitHubName}
+  } work at ${data.userGitHubName}
 `;
 }
 // renderLicenseBadge()

@@ -3,9 +3,8 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./Texas/texas");
 // TODO: Create an array of questions for user input
-function promptUser(){
-return inquirer
-  .prompt([
+function promptUser() {
+  return inquirer.prompt([
     {
       type: "input",
       message: "What is the name of your readMe?",
@@ -51,8 +50,8 @@ return inquirer
     },
     {
       type: "input",
-      message:"What command do you use to run the dependencies?",
-      name: "command"
+      message: "What command do you use to run the dependencies?",
+      name: "command",
     },
 
     {
@@ -66,51 +65,21 @@ return inquirer
       message: "What are you contributing to the repo?",
       name: "contributing",
     },
-  ])
+  ]);
 }
- 
-  
+
 function writeREADME(data) {
-      fs.writeFileSync('README.md', data);
-    }
+  fs.writeFileSync("README.md", data);
+}
 
-  async function init() {
-    try{
-      const userInput = await promptUser();
-      const readmeContent = generateMarkdown(userInput);
-      writeREADME(readmeContent);
-      console.log('README file created successfully!')
-    } catch (error) {
-      console.error('An error occurred:', error);
-    }
+async function init() {
+  try {
+    const userInput = await promptUser();
+    const readmeContent = generateMarkdown(userInput);
+    writeREADME(readmeContent);
+    console.log("README file created successfully!");
+  } catch (error) {
+    console.error("An error occurred:", error);
   }
-  init()
-//     const fileName = `${data.readMe}.md`;
-//     function writeToFile(fileName, data) {
-//       fs.writeFile(fileName, JSON.stringify(data, null, "\t"), (err) =>
-//         err ? console.error(err) : console.log("Message Logged!")
-//       );
-//     }
-    
-//   });
-
-// // TODO: Create a function to write README file
-
-// // // TODO: Create a function to initialize app
-// function init() {
-//   inquirer.prompt(questions).then((response) => {
-//     let markdown = generateMarkdown(response);
-//     writeToFile("testReadMe.md", markdown);
-//   });
- 
-// }
-// init()
-// // // Function call to initialize app
-
-// // inquirer
-// //   .prompt([
-// //     {
-// //       message: 'Press ENTER to continue...',
-// //       name: 'enterKey'
-// //     }
-// //   ]);
+}
+init();

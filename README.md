@@ -1,8 +1,8 @@
 # GOAT
   ## GitHub repo User Name
-  thomasss2222
+  thomassmith0526
   ### Email
-  thomasss222@yahoo.com
+  thomassmith0526@gmail.com
    ## Table of Contents
   * [Installation](#Installation)
   * [Description](#Description)
@@ -11,17 +11,17 @@
   * [Contributing](#Contributing)
  ## Installation
  To install the corrcet dependencies, run the following command<br>
- ```npm i ```
+ ```npm i```
  ## Description
-  projecting the next GOATs in sports 
+  we will be trying to predict the next GOAT is sports
 ## Lincese
   [![License](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/)
   
   WTFPL
 ## Test
-  baaa
+  baabaa
 ## Contributing
-  college sports api 
+  APIs of sports stats
 ## Screen Shots
 ## Question
-  If you have any questions please thomasss222@yahoo.com>. You can find more of thomas at thomasss2222
+  If you have any questions please thomassmith0526@gmail.com. You can find more of Thomas Smith  work at thomassmith0526
