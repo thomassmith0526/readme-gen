@@ -41,7 +41,7 @@ return inquirer
       message: "What type of License do you want to use?",
       name: "License",
       choices: [
-        "Apache license 2.0",
+        "BSD 3-Clause License",
         "Eclipse Public License 2.0",
         "MIT",
         "WTFPL",
@@ -49,11 +49,16 @@ return inquirer
         "none",
       ],
     },
+    {
+      type: "input",
+      message:"What command do you use to run the dependencies?",
+      name: "command"
+    },
 
     {
       type: "input",
       message: "Test command?",
-      name: "command",
+      name: "test",
     },
 
     {

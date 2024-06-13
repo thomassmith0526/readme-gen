@@ -1,27 +1,27 @@
-# time
+# f
   ## GitHub repo User Name
-  thomas222
+  f
   ### Email
-  thomas222@yahoo.com
+  f
    ## Table of Contents
+  * Installation](#Installation)
   * [Description](#Description)
   * [Lincese](#Lincese)
   * [Test](#Test)
   * [Contributing](#Contributing)
+ ## Installation
+ To install the corrcet dependencies, run the following command<br>
+ ```f```
  ## Description
-  help
-  ## Lincese
-  undefined
-  function link() { [native code] }
-  Apache license 2.0
-  ## Test
-  fight
-  ## Contributing
-  everything
-  #Screen Shots
-  #Question
-  If you have any questions please thomas222@yahoo.com>. You can find more of thomas at thomas222
-
-
-
-
+  f
+## Lincese
+  [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+  
+  BSD 3-Clause License
+## Test
+  f
+## Contributing
+  f
+## Screen Shots
+## Question
+  If you have any questions please f>. You can find more of f at f
