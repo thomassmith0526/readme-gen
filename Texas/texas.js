@@ -20,30 +20,37 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  
   const licenseLink = {
-    'BSD 3-Clause License': '(https://opensource.org/licenses/BSD-3-Clause)',
-    'Eclipse Public Kicense 2.0': "(https://www.eclipse.org/legal/epl-2.0/)",
-    'MIT': "(https://opensource.org/licenses/MIT)",
-    'WTFPL': "(http://www.wtfpl.net/)",
-    'zLib License': "(https://opensource.org/licenses/Zlib)",
+    "BSD 3-Clause License": "(https://opensource.org/licenses/BSD-3-Clause)",
+    "Eclipse Public Kicense 2.0": "(https://www.eclipse.org/legal/epl-2.0/)",
+    MIT: "(https://opensource.org/licenses/MIT)",
+    WTFPL: "(http://www.wtfpl.net/)",
+    "zLib License": "(https://opensource.org/licenses/Zlib)",
     noLicenses: {},
   };
-   
-  return licenseLink[license] || ''
- }
 
+  return licenseLink[license] || "";
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (license && license !== "None") {
+    console.log("Before replace", license);
+    const formattedLicense = license.replace(/ /g, "_");
+    return `![GitHub license](https://img.shields.io/badge/license-${formattedLicense}-blue.svg)`;
+  } else {
+    return "";
+  }
+}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   const badge = renderLicenseBadge(data.License);
-  const link = renderLicenseLink(data.license)
-  console.log(badge)
+  const link = renderLicenseLink(data.license);
+  const section = renderLicenseSection(data.license);
+  console.log(badge);
   return `# ${data.readMe}
-  ## GitHub repo User Name
+  ## GitHub Repo User Name
   ${data.userGitHubName}
   ### Email
   ${data.userEmail}
@@ -61,6 +68,7 @@ function generateMarkdown(data) {
 ## Lincese
   ${badge}
   ${link}
+  ${section}
   ${data.License}
 ## Test
   ${data.test}
@@ -68,9 +76,7 @@ function generateMarkdown(data) {
   ${data.contributing}
 ## Screen Shots
 ## Question
-  If you have any questions please ${data.userEmail}. You can find more of ${
-    data.userName
-  } work at ${data.userGitHubName}
+  If you have any questions please ${data.userEmail}. You can find more of ${data.userName} work at ${data.userGitHubName}
 `;
 }
 // renderLicenseBadge()
